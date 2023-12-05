@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calcKeys">
+            <h1 align="center">Calculator</h1>
+            <div class="grid-container">
+                <div class="display"><p align="center" type="text" id="message-el"></p></div>
+                <div class="key"><button class="operand" onclick='setOperand(this)' id="add" type="button">+</button></div>
+                <div class="key"><button class="operand" onclick='setOperand(this)' id="subtract" type="button">-</button></div>
+                <div class="key"><button class="operand" onclick='setOperand(this)' id="multiply" type="button">x</button></div>
+                <div class="key"><button class="operand" onclick='setOperand(this)' id="divide" type="button" >÷</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="seven" type="button">7</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="eight" type="button">8</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="nine" type="button">9</button></div>
+                <div class="key" id="equal"><button onclick='performOperation(this)' id="equalSign" 
+                    type="button">=</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="four" type="button">4</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="five" type="button">5</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="six" type="button">6</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="one" type="button">1</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="two" type="button">2</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="three" type="button">3</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="zero" type="button">0</button></div>
+                <div class="key"><button onclick='setNumber(this)' id="decimal" type="button">.</button></div>
+                <div class="key"><button onclick='clearMainText()' id="clear" type="button">AC</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
